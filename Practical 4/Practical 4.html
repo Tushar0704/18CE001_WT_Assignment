@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registeration Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<script type="text/javascript" src="Validation.js"></script>
+	<h1>Simple Form</h1>
+	<form name="form">
+		<input type="text" placeholder="First Name" id="fname">
+		<input type="text" placeholder="Last Name" >
+		<input type="email" placeholder="Email" name="email" onblur="emailCheck()">
+		<input type="text" placeholder="College Name">
+		<input type="text" placeholder="Course Name">
+
+		<div>
+			<input type="radio" id="male" name="gender"><label for="male">Male</label>
+			<input type="radio" id="female" name="gender"><label for="female">Female</label>
+		</div>
+
+		<input type="submit" name="Submit">
+
+		<button value="Reset" name="Reset">Reset</button>
+	</form>
+</body>
+</html>

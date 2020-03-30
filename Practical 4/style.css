@@ -1,0 +1,52 @@
+body{
+	background-color: #f4e1d2; 
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+	color: #262626
+}
+form{
+	margin: 20px auto;
+	width: 320px;
+	color: #262626;
+}
+input{
+	padding: 10px;
+	font-size: inherit;
+}
+input[type = "text"]{
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid #262626;
+}
+input[type = "password"]{
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid #262626;
+}
+input[type = "email"]{
+	display: block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 2px solid #262626;
+}
+input[type = "radio"]{
+	margin: 0 8px 25px 18px; 
+}
+input[type = "submit"]{
+	width: 340px;
+	height: 45px;
+	border: none;
+}
+button{
+	width: 340px;
+	height: 45px;
+	border: none;
+	margin: 20px auto;
+	color: #262626;
+	padding: 10px;
+	font-size: inherit;
+}
